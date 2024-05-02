@@ -2,7 +2,7 @@
 
 This repository is an example of how to implement Aave technology in a BOS component to query the supply and borrow available on the ETH network.
 
-<img src="https://drive.google.com/uc?id=1U10_dhSXLOo_0PY1kFuEEwhGiMKuYv8R" width="35%">
+<img src="https://drive.google.com/uc?id=1U10_dhSXLOo_0PY1kFuEEwhGiMKuYv8R" width="50%">
 
 ## How to implement the Aave technology in BOS?
 
