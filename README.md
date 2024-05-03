@@ -8,7 +8,7 @@ This repository is an example of how to implement Aave technology in a BOS compo
 
 To implement the Aave technology and get the supply and borrow available from our BOS component we will have to make some configurations and calls to an API.
 
-The first thing to do is to initialize each of the corresponding ABI and network configurations, in this case ETH.
+The first thing to do is to initialize each of the corresponding ABI and network configurations, in this case ETH:
 
 ```jsx
 // Contract ABIs
@@ -69,7 +69,7 @@ function getNetworkConfig(chainId) {
 }
 ```
 
-Method to switch to the corresponding network (ETH) and validation to determine that we are on the correct network.
+Method to switch to the corresponding network (ETH) and validation to determine that we are on the correct network:
 
 ```jsx
 // Change network to Ethereum
@@ -115,7 +115,7 @@ if (
 }
 ```
 
-Method to obtain the available assets to supply with all their specifications.
+Method to obtain the available assets to supply with all their specifications:
 
 ```jsx
 function updateData(refresh) {
@@ -210,7 +210,7 @@ function updateData(refresh) {
 }
 ```
 
-Method to obtain all the available borrow with each of their specifications
+Method to obtain all the available borrow with each of their specifications:
 
 ```jsx
 function updateUserDebts(marketsMapping, assetsToSupply) {
